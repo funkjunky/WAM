@@ -1,0 +1,21 @@
+so many thing to update... I got panicy near the end... so threw a lot away.
+Here are some things that can be done given time to make this more awesome:
+
+1. Not everything should be a shared_ptr. Ie. HEAP should not be a 
+	shared_ptr. Re-evaluate all shared_ptr types and remove the ptr if it 
+	makes sense.
+
+2. Ensure const correctness for all functions... making a shared_ptr const 
+	DOES have a meaning, even when passed by value!
+
+3. Make sure all functions can give the highest exception gaurentee.
+
+4.	Make sure the code is AS extensible as possible, so the language can be
+	extended.
+
+5.	add List Comprehension.
+
+6.	go through the book and add all WAM optimizations.
+
+7.	go through the code and add any easy optimizations that don't jeopordize
+	the niceness of the code in any way.

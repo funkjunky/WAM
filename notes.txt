@@ -1,0 +1,2 @@
+
+I seem to do a lot of switch cases and if statements using id, and I throw when it is invalid. I do this a lot and it feels redundent. I'm thinking I should perhaps make a function to validate the id, and just call that, before all these calls. The function can be inline, and all it will do is throw if i->id exceeds the last known enum. (not a big deal, because in order to break it you need to cast an int to an ID, which I really don't think I'll do.)

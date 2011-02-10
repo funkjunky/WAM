@@ -1,0 +1,7 @@
+here their is a list of errors and what they likely mean:
+
+"undefined symbols":
+You are likely missing an object file for compiling your current file. So "-i mysourcefile.o"
+
+"undefined symbols: vtable for X": 
+if you've linked correctly, then this could be because you have only written some, not ALL of the definitions of a class included in the compiled file.

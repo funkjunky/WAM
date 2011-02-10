@@ -1,0 +1,10 @@
+In the definition of the fact:
+---
+	If it's an arguement then use get, if it's an arguement of an arguement, then use unify... and everything recursively further is also unify.
+If you come up to a structure past the first level of arguements, then use a variable and prepare code for the structure to be appended to the instructions for the fact. In the Defn's case use unify_variable or unify_value.
+
+
+In the body/goals of the fact:
+---
+	If it's an arguement then use put, if it's an arguement of an arguement, then use set. Everything recursive follows.
+If you come up to a structure past the first level of arguements, then use a variable and prepare code for the structure to be appended to the instructions for the fact. In the body's case use set_variable or set_value.

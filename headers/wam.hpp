@@ -1,0 +1,5 @@
+#include "structures.hpp"
+#include "functions.hpp"
+#include "globals.hpp"
+#include "notWAMStructures.hpp"
+#include "notWAMFunctions.hpp"

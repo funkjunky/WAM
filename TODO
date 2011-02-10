@@ -1,0 +1,36 @@
+Things to do:
+-fix const correctness everywhere.
+-Look into list comprehension.
+***done feasability assessment.***
+-Fill in more of this TODO list.
+	-based on adding list comprehension.
+	-next (after completing Dr. Kent's DSS): creating the actual language environment.
+
+
+Things done:
+(08/12/10)-implement the new (L1) memory structures and compile them
+(08/14/10)-write end code for using L1 functions.
+(08/15/10)-write the prototypes for L1 and ensure they compile
+	(08/12/10)-void call(const Functor&)
+	(08/15/10)-the rest
+(08/16/10)-write the definitions for L1 and ensure they compile and return the correct results.
+(08/17/10)-write the prototypes and definitions for L2 and L3.
+(no idea)-Write the functions for instruction generation of facts and queries.
+	-write the function definitions for ProducesInstruction implementations.
+	-write the function definitions for Fact.
+(08/22/10)-Write a toString for instructions, so I can view what is on the
+instruction stack for debugging purposes. (perhaps I should right an actual string cast operator that calls the toString method.)
+	(08/22/10)-write string operator for structures.
+	(08/22/10)-actually redo the reg string ones, to something more reasonable
+		(08/22/10)-I can't create an operator for a shared_ptr<tag>
+	(08/22/10)-write string operators for functors and TagPtr? O.o
+(08/23/10)-Write a function that takes a vector of Facts and produces instructions for them.
+	(08/22/10)-turn the try_me functions into "Instruction"s
+	(08/23/10)-Write this function!
+(08/23/10)-Write some simple tests involving simple facts and simple queries.
+(08/23/10)-Finally figured out how pointers work, lol. So I started fixed all shared_ptrs.
+(09/08/10)-get them working at least for generating instructions.
+(09/08/10)-***Milestone 2 done... good great...***
+-Try some more complicated tests involving Clauses in clauses. 
+-get them working at least for generating instructions.
+-try actual prolog and fix all bugs.
